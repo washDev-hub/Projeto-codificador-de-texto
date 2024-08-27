@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="assets/pngwing.com.png">
+    <title>Codificador</title>
+</head>
+<body>
+   <header class="cabecalho">
+        <img src="assets/top.png" alt="Logo de Twenty onde Pilots">
+   </header> 
+   <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite o seu texto..."></textarea>
+
+                <div class="informacao">
+                    <h6>Apenas letras minúsculas e sem acento.</h6>
+                </div>
+                <div class="botoes">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+            
+    </section>
+
+    <section>
+        <textarea class="mensagem" cols="20" rows="10"></textarea>
+        <button class="btn-copiar" onclick="copiar()">Copiar</button>
+    </section>
+   </main>
+    <footer class="rodape">
+        <div class="icons">
+        <a href="https://www.youtube.com/@washingtonmesquita4806"><ion-icon name="logo-youtube" ></ion-icon></a>
+        <a href="https://www.instagram.com/washington.mesquitaa/"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://github.com/washDev-hub"><ion-icon name="logo-github"></ion-icon></a>
+    </div>
+        <h3>Desenvolvido por Washington Mesquita</h3>
+   </footer>
+   <script src="app.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

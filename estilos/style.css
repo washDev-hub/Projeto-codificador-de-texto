@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    background: rgb(255, 174, 0);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;   
+    position: relative;
+}
+.cabecalho img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    padding-top: 10px;
+    
+}
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;  
+
+}
+
+.text-area {
+    border: none;
+    color: darkslategray;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {color:darkslategray; }
+    .text-area:focus {
+        outline: none;
+    }
+.mensagem {
+   background: white; 
+   background-repeat: no-repeat;
+   border: none;
+   border-radius: 24px;
+   color: darkslategrey;
+   margin-left: 98px;
+   margin-top: 20px;
+   padding-left: 20px;
+   position: fixed;
+  
+
+
+}
+.mensagem:focus {
+    outline: none;
+}
+.botoes {
+    display: flex;
+    margin-top: 18px;
+
+}
+.btn-encriptar {
+    background-color: darkslategrey;
+    border: 1px solid darkslategray;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-desencriptar {
+    background-color: #d8dfe8;
+    border: 1px solid darkslategray;
+    border-radius: 24px;
+    color: darkslategray;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn-copiar {
+    border: 1px solid darkslategray;
+    border-radius: 24px;
+    color: darkslategray;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: fixed;
+    width: 336px;
+}
+.informacao {
+    color: #495057;
+    font-size: 18px;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px ;
+}
+
+.rodape h3{
+    font-size: 16px;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;   
+}
+
+.icons ion-icon:hover{
+    color: var(--corsegundaria);
+}
