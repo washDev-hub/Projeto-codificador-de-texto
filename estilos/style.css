@@ -6,6 +6,9 @@
     font-size: 32px;
     line-height: 150%;   
     position: relative;
+    scale: 93%;
+    margin-top: 1px;
+
 }
 .cabecalho img{
     width: 50px;
@@ -39,9 +42,10 @@ main {
    border-radius: 24px;
    color: darkslategrey;
    margin-left: 98px;
-   margin-top: 20px;
    padding-left: 20px;
-   position: fixed;
+   top: 4px;
+   position: relative;
+   padding-top: 2%;
   
 
 
@@ -80,13 +84,19 @@ main {
     cursor: pointer;
     height: 67px;
     margin-left: 108px;
-    margin-top: 402px;
-    position: fixed;
+    position: relative;
+    top: 1%;
     width: 336px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
-.informacao {
+.informacao h6{
     color: #495057;
     font-size: 18px;
+    font-size: 4vh;
 }
 .rodape{
     display: flex;
@@ -107,4 +117,11 @@ main {
 
 .icons ion-icon:hover{
     color: var(--corsegundaria);
+}
+.area__crip {
+    position: unset;
+}
+body {
+    margin: 0;
+    padding: 0;
 }
